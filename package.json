@@ -1,0 +1,38 @@
+{
+    "name": "vuetify-loader-issue",
+    "private": true,
+    "scripts": {
+        "build": "webpack",
+        "clean": "rm -rf ../node_modules/.cache/@x/front-end-client ./public/assets/*",
+        "start": "webpack serve --hot --mode=development --progress"
+    },
+    "dependencies": {
+        "vue": "^3.2.19",
+        "vuetify": "^3.0.0-alpha.11"
+    },
+    "devDependencies": {
+        "@types/css-minimizer-webpack-plugin": "^3.0.2",
+        "@types/mini-css-extract-plugin": "^2.3.0",
+        "@vue/compiler-sfc": "^3.2.12",
+        "autoprefixer": "^10.3.6",
+        "css-loader": "^6.3.0",
+        "css-minimizer-webpack-plugin": "^3.0.2",
+        "fibers": "^5.0.0",
+        "fork-ts-checker-webpack-plugin": "^6.3.3",
+        "html-loader": "^2.1.2",
+        "html-webpack-plugin": "^5.3.2",
+        "mini-css-extract-plugin": "^2.3.0",
+        "postcss": "^8.3.8",
+        "postcss-loader": "^6.1.1",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.42.1",
+        "sass-loader": "^12.1.0",
+        "terser-webpack-plugin": "^5.2.4",
+        "ts-loader": "^9.2.6",
+        "vue-loader": "^16.8.1",
+        "vuetify-loader": "^2.0.0-alpha.4",
+        "webpack": "^5.54.0",
+        "webpack-cli": "^4.8.0",
+        "webpack-dev-server": "^4.3.0"
+    }
+}

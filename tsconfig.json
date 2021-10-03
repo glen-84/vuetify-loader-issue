@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "incremental": true,
+        "newLine": "LF",
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+
+        "baseUrl": ".",
+        // https://github.com/TypeStrong/fork-ts-checker-webpack-plugin#vuejs
+        "importsNotUsedAsValues": "preserve",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "paths": {"@/*": ["./src/*"]},
+        "rootDir": "src",
+        "target": "ES2017",
+        "tsBuildInfoFile": "../node_modules/.cache/@x/front-end-client/.tsbuildinfo"
+    },
+    "include": ["src/**/*", "types.d.ts"]
+}
