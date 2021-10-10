@@ -28,7 +28,7 @@ module.exports = (_env, argv) => {
             path: paths.public,
             filename: `assets/scripts/${isHot ? "[name]" : "[name]-[contenthash:8]"}.js`,
             chunkFilename: `assets/scripts/${isHot ? "[name]" : "[name]-[contenthash:8]"}.chunk.js`,
-            publicPath: isHot ? "http://127.0.0.1:4200/" : "/",
+            publicPath: isHot ? "http://127.0.0.1:3000/" : "/",
             clean: true
         },
         module: {
@@ -164,7 +164,7 @@ module.exports = (_env, argv) => {
         devtool: isDev ? "source-map" : "hidden-source-map",
         devServer: {
             host: "127.0.0.1",
-            port: 4250
+            port: 3000
         }
     });
 };
