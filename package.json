@@ -3,7 +3,7 @@
     "private": true,
     "scripts": {
         "build": "webpack",
-        "clean": "rm -rf ../node_modules/.cache/@x/front-end-client ./public/assets/*",
+        "clean": "rm -rf ./node_modules/.cache ./public/assets/*",
         "start": "webpack serve --hot --mode=development --progress"
     },
     "dependencies": {
