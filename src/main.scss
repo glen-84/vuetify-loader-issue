@@ -2,7 +2,6 @@
     (
         // Works.
         $body-font-family: "monospace",
-        // Doesn't.
         $grid-breakpoints: (
             "xs": 0,
             "sm": 1px,
@@ -16,5 +15,7 @@
             "lg": 1px,
             "xl": 1px,
             "xxl": 1px
-        )
+        ),
+        // Doesn't.
+        $tooltip-text-color: red
     );

@@ -8,7 +8,7 @@
     },
     "dependencies": {
         "vue": "^3.2.22",
-        "vuetify": "npm:@vuetify/nightly@^3.0.0-next-20211105.0"
+        "vuetify": "^3.0.0-alpha.11"
     },
     "devDependencies": {
         "@types/css-minimizer-webpack-plugin": "^3.0.2",
