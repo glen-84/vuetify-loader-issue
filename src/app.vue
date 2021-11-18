@@ -14,3 +14,11 @@
 <script lang="ts" setup>
 console.log("script setup");
 </script>
+
+<style lang="scss" scoped>
+@use "./main" as x;
+
+a {
+    font: x.$body-font-family
+}
+</style>

@@ -1,21 +1,4 @@
-@use "vuetify/styles" with
+@forward "vuetify/styles" with
     (
-        // Works.
-        $body-font-family: "monospace",
-        $grid-breakpoints: (
-            "xs": 0,
-            "sm": 1px,
-            "md": 1px,
-            "lg": 1px,
-            "xl": 1px,
-            "xxl": 1px
-        ),
-        $container-max-widths: (
-            "md": 1px,
-            "lg": 1px,
-            "xl": 1px,
-            "xxl": 1px
-        ),
-        // Doesn't.
-        $tooltip-text-color: red
+        $body-font-family: "monospace"
     );
