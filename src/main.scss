@@ -1,6 +1,5 @@
-@use "vuetify/styles" with
+@forward "vuetify/styles" with
     (
-        // Works.
         $body-font-family: "monospace",
         $grid-breakpoints: (
             "xs": 0,
@@ -16,6 +15,5 @@
             "xl": 1px,
             "xxl": 1px
         ),
-        // Doesn't.
         $tooltip-text-color: red
     );
