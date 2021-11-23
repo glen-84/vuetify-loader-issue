@@ -1,4 +1,4 @@
-@forward "vuetify/styles" with
+@use "vuetify/styles" with
     (
         $body-font-family: "monospace",
         $grid-breakpoints: (
